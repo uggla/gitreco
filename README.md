@@ -16,7 +16,10 @@
 ![Git workflow](./git-workflow.png)
 - Master reflects what has been delivered to production.
 - Devel reflects the latest development that will be included in the next release.
-- Master and devel branch should be protected. (commit cannot be done directly on the branch).![Bitbucket branch perm](./Bitbucket_branchperm.png)
+- Master and devel branch should be protected. (commit cannot be done directly on the branch).
+
+![Bitbucket branch perm](./Bitbucket_branchperm.png)
+
 http://nvie.com/posts/a-successful-git-branching-model/
 
 Proposal: feature owner will do the synchronization of feature branch.
