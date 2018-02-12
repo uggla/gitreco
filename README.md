@@ -12,6 +12,14 @@
 - Feature reach tool that lead to complexity.
 - Can be used completely with different manners/workflows.
 
+## TLDR
+- Always use a branch to work `git checkout -b <branch name>`. Recommendation branch name should contain the jira ticket. 
+- Synchronize your branch with devel every day using `git remote update` and `git rebase origin/devel`.
+- Create commits by topics. Use `git add -p` to select what should be part of the commit.
+- Rebase you commits before pushing your branch using `git rebase -i <previous commit>`.
+- Open a PR and set your peers for review.
+- Peers to review the PR and merge as soon as ready.
+
 # Git workflow
 ![Git workflow](./git-workflow.png)
 - Master reflects what has been delivered to production.
