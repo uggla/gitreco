@@ -199,6 +199,10 @@ git push --set-upstream origin <branch name>
 - If you know that you should keep your file use : `git checkout --ours <path/file>`.
 - If you know that you should keep remote file use : `git checkout --theirs <path/file>`.
 
+## Tips
+
+- Merge ignoring whitespace. This is really usefull with xml files (pom.xml) that has been reformated. `git rebase origin/devel --ignore-whitespace -s recursive -Xignore-all-space`
+
 # Contribute to improve this doc
 
 # Thanks!
